@@ -1,0 +1,1 @@
+GRANT ALL PRIVILEGES ON DATABASE cafe_finder TO cafe_user;
