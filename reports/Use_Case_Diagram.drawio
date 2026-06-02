@@ -1,0 +1,151 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.1 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.1">
+  <diagram id="fitcoach-usecase" name="FitCoach Use Case Diagram">
+    <mxGraphModel dx="1077" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;dashed=1;fontStyle=1;verticalAlign=top;align=center;" value="FitCoach System" vertex="1">
+          <mxGeometry height="680" width="780" x="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="guest" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Guest" vertex="1">
+          <mxGeometry height="120" width="70" x="30" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="athlete" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Athlete" vertex="1">
+          <mxGeometry height="120" width="70" x="50" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="coach" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Coach" vertex="1">
+          <mxGeometry height="120" width="70" x="1030" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Admin" vertex="1">
+          <mxGeometry height="120" width="70" x="1100" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_home" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" value="View Home Page" vertex="1">
+          <mxGeometry height="55" width="180" x="260" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_coach_list" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" value="View Coach List" vertex="1">
+          <mxGeometry height="55" width="180" x="260" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_coach_details" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" value="View Coach Details" vertex="1">
+          <mxGeometry height="55" width="180" x="260" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_articles" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" value="View Articles" vertex="1">
+          <mxGeometry height="55" width="180" x="260" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_auth" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" value="Register / Login" vertex="1">
+          <mxGeometry height="55" width="180" x="500" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_complete_athlete" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" value="Complete Athlete Profile" vertex="1">
+          <mxGeometry height="55" width="200" x="490" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_request_program" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" value="Request Program from Coach" vertex="1">
+          <mxGeometry height="55" width="210" x="490" y="373" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_view_program" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" value="View My Program" vertex="1">
+          <mxGeometry height="55" width="180" x="490" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_mark_week" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" value="Mark Week as Completed" vertex="1">
+          <mxGeometry height="55" width="210" x="470" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_complete_coach" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" value="Complete Coach Profile" vertex="1">
+          <mxGeometry height="55" width="200" x="735" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_create_program" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" value="Create Training Program" vertex="1">
+          <mxGeometry height="55" width="200" x="735" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_add_exercise" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" value="Add Exercises to Program" vertex="1">
+          <mxGeometry height="55" width="210" x="735" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_view_progress" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" value="View Athlete Progress" vertex="1">
+          <mxGeometry height="55" width="200" x="745" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_admin_panel" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" value="Access Admin Panel" vertex="1">
+          <mxGeometry height="55" width="200" x="720" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_manage_users" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" value="Manage Users" vertex="1">
+          <mxGeometry height="55" width="180" x="750" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_manage_content" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" value="Manage Content" vertex="1">
+          <mxGeometry height="55" width="180" x="735" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_summary" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" value="View Admin Summary" vertex="1">
+          <mxGeometry height="55" width="190" x="530" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="e_g_0" edge="1" parent="1" source="guest" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="uc_home" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_g_1" edge="1" parent="1" source="guest" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="uc_coach_list" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_g_2" edge="1" parent="1" source="guest" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="uc_coach_details" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_g_3" edge="1" parent="1" source="guest" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="uc_articles" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_g_4" edge="1" parent="1" source="guest" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="uc_auth" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a_0" edge="1" parent="1" source="athlete" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="uc_auth" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a_1" edge="1" parent="1" source="athlete" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="uc_complete_athlete" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a_2" edge="1" parent="1" source="athlete" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="uc_request_program" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a_3" edge="1" parent="1" source="athlete" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="uc_view_program" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_a_4" edge="1" parent="1" source="athlete" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="uc_mark_week" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_c_0" edge="1" parent="1" source="coach" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="uc_auth" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_c_1" edge="1" parent="1" source="coach" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="uc_complete_coach" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_c_2" edge="1" parent="1" source="coach" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="uc_create_program" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_c_3" edge="1" parent="1" source="coach" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="uc_add_exercise" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_c_4" edge="1" parent="1" source="coach" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="uc_view_progress" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ad_0" edge="1" parent="1" source="admin" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="uc_auth" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ad_1" edge="1" parent="1" source="admin" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="uc_admin_panel" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ad_2" edge="1" parent="1" source="admin" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="uc_manage_users" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ad_3" edge="1" parent="1" source="admin" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="uc_manage_content" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ad_4" edge="1" parent="1" source="admin" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;" target="uc_summary" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" edge="1" parent="1" source="uc_request_program" style="endArrow=open;html=1;rounded=0;strokeWidth=1.2;dashed=1;" target="uc_auth" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" edge="1" parent="1" source="uc_create_program" style="endArrow=open;html=1;rounded=0;strokeWidth=1.2;dashed=1;" target="uc_add_exercise" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d3" edge="1" parent="1" source="uc_admin_panel" style="endArrow=open;html=1;rounded=0;strokeWidth=1.2;dashed=1;" target="uc_manage_users" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d4" edge="1" parent="1" source="uc_admin_panel" style="endArrow=open;html=1;rounded=0;strokeWidth=1.2;dashed=1;" target="uc_manage_content" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d5" edge="1" parent="1" source="uc_admin_panel" style="endArrow=open;html=1;rounded=0;strokeWidth=1.2;dashed=1;" target="uc_summary" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
